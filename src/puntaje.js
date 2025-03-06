@@ -9,14 +9,16 @@ if(j1 === 1 && j2 === 0 )
     return [15,0];
 
 if(j1 === 2 && j2 === 0)
-    return [30,0]
+    return [30,0];
 
 if(j1 === 3 && j2 === 0)
-    return [40,0]
+    return [40,0];
 
 if(j1 === 0 && j2 === 2)
-    return [0,30]
+    return [0,30];
 
+if(j1 === 0 && j2 === 3)
+    return [0,40];
 }
 
 export default puntaje;
