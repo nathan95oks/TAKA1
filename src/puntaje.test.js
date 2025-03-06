@@ -36,4 +36,10 @@ describe('debería devolver el puntaje de la partida', () => {
     expect(puntaje(1 , 1)).toEqual("deuce");
   });
 
+  it('debería devolver advantage para el jugador 1 ', () => {
+    expect(puntaje("AD" , 3)).toEqual("ADVANTAGE for player 1");
+  });
+
+
+
 });

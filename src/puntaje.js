@@ -24,6 +24,9 @@ if(j1 === 1 && j2 === 2)
 
 if (j1 ==j2)
     return "deuce";
+
+if (j1 === "AD" && j2 === 3)
+    return "ADVANTAGE for player 1"
 }
 
 
