@@ -32,4 +32,8 @@ describe('debería devolver el puntaje de la partida', () => {
     expect(puntaje(1 , 2)).toEqual([15, 30]);
   });
 
+  it('debería devolver deuce si el puntaje de ambos jugadores es el mismo ', () => {
+    expect(puntaje(1 , 1)).toEqual("deuce");
+  });
+
 });
