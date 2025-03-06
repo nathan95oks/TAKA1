@@ -13,4 +13,12 @@ describe('debería devolver el puntaje de la partida', () => {
     expect(puntaje(1 , 0 )).toEqual([15, 0]);
   });
 
+  it('debería devolver love si el puntaje devuelto es 30 y 0 si se logro hacer un punto ', () => {
+    expect(puntaje(2 , 0 )).toEqual([30, 0]);
+  });
+
+  it('debería devolver love si el puntaje devuelto es 40 y 0 si se logro hacer un punto ', () => {
+    expect(puntaje(3 , 0 )).toEqual([40, 0]);
+  });
+
 });
